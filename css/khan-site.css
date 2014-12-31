@@ -9620,6 +9620,7 @@ footer {
   -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+  display: none;
   position: relative;
   z-index: 1051;
   /* Primary navigation links (left side of header)
@@ -12808,6 +12809,6 @@ body.debug #hintsarea {
     outline: 1px dashed #ddd;
 }
 
-body.debug #extras .debug-mode {
+#extras, body.debug #extras .debug-mode {
     display: none;
 }
